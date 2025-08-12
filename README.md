@@ -102,7 +102,7 @@ GDP per Capita vs Max Infection Rate
 x = data["GDP per capita"]
 y = data["Max_infection_rate"]
 sns.scatterplot(x=x, y=np.log(y))
-sns.regplot(x=x,y=mp.log(y))
+sns.regplot(x=x,y=np.log(y))
 ```
 similarly for
 
