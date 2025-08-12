@@ -114,7 +114,7 @@ similarly for
 
 ### 14. Conclusion
 
-Countries with higher GDP per capita, better health, and stronger social support tend to have slightly higher maximum COVID-19 infection rates,
+Countries with higher GDP per capita, better health, and stronger social support tend to have slightly  maximum COVID-19 infection rates,
 though these relationships are weak. 
 
 
