@@ -1,8 +1,8 @@
 ### COVID-19 Data Analysis
-### 🎯 Aim
+###  Aim
 To check if there is any relationship between coronavirus spread in a country and how happy people are living in that country.
 
-### 📦 Steps
+###  Steps
 ### 1. Importing the Libraries
 
      Imported libraries such as pandas,numpy,matplotlib and seaborn
@@ -87,10 +87,15 @@ data = corona_data.join(happiness_report, how="inner")
 
 ```
 data.corr()
+```
+
 Positive → both increase
 Negative → one increases, other decreases
 Zero → no relationship
-```
+
+we can observe that weak corr between GDP and max infection rate, very low or negligible corr between freedom and infection,weak corr between social support and infection rate.
+and strong corr between GDP and healthy life ,GDP and social support also have good corr.
+
 ### 13. Visualization
 GDP per Capita vs Max Infection Rate
 ```
